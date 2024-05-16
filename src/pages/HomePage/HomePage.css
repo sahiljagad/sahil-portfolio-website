@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  justify-items: center;
+  height: 100vh;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  width: 100%;
+}
+
+.hero-text {
+  font-size: 8em;
+  margin: 40px;
+  color: #282629;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-items: center;
+  gap: 30px;
+}
+
+.home-button {
+  background-color: #282629;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+}
+
+.home-button:hover {
+  background-color: #202056;
+}
+
+.resume-link {
+  text-decoration: none;
+  color: white;
+}
+
+.info,
+.resume {
+  font-size: 15px;
+}

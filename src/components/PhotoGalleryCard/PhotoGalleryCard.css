@@ -1,0 +1,32 @@
+.image-container {
+  position: relative;
+  height: 100%;
+}
+
+.photo-gallery-card {
+  height: 100%;
+}
+
+.image-text {
+  font-size: 20px;
+  font-stretch: extra-condensed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  color: white;
+  opacity: 0; /* Initially hide the text */
+}
+
+.image-container:hover img {
+  opacity: 0.3; /* Reduce image opacity on hover */
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .image-text {
+  opacity: 1; /* Show the text on hover */
+}
+
+.image-text h3 {
+  margin: 0; /* Remove default margin of h3 */
+}
